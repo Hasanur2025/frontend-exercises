@@ -1,1 +1,4 @@
-## Frontend Exercises for 50 Days 
+## Frontend Exercises
+
+### Day 01
+Expanding Cards
