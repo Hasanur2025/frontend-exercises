@@ -13,3 +13,6 @@ Rotating Nav Animation
 
 ### Day 04
 Button Animation
+
+### Day 05
+Hidden Search
