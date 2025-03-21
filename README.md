@@ -1,4 +1,6 @@
-## Frontend Exercises
+## Frontend 
+
+Demo: https://hasanurcodes.github.io/frontend-exercises/
 
 ### Day 01
 Expanding Cards
