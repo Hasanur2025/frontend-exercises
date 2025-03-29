@@ -1,18 +1,13 @@
-## Frontend 
+## Frontend
 
-Demo: https://hasanurcodes.github.io/frontend-exercises/
+Preview: https://hasanurcodes.github.io/frontend-exercises/
 
-### Day 01
-Expanding Cards
+## Exercises
 
-### Day 02
-Progress Steps
-
-### Day 03
-Rotating Nav Animation
-
-### Day 04
-Button Animation
-
-### Day 05
-Hidden Search
+01 - [Expanding Cards](exercises/expanding-cards.html)\
+02 - [Progress Steps](exercises/progress-steps.html)\
+03 - [Rotating Nav Animation](exercises/rotating-nav-animation.html)\
+04 - [Button Animation](exercises/button-animation.html)\
+05 - [Hidden Search](exercises/hidden-search.html)\
+06 - [Blurry Loading](exercises/blurry-loading.html)\
+07 - coming soon
