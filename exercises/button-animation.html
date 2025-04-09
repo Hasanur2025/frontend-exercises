@@ -12,15 +12,15 @@
 	<style>
 		.shell {
 			width: 200px;
-			height: 100px;
+			height: 80px;
 			margin: 20px auto;
 			background-color: grey;
-			border-radius: 25px;
+			border-radius: 20px;
 		}
 
 		.item {
 			width: 100px;
-			height: 100px;
+			height: 80px;
 			background-color: aquamarine;
 			border-radius: 20px;
 			transition: transform 0.5s linear;
@@ -78,6 +78,33 @@
 			transform: rotate(90deg);
 			transform-origin: top left;
 		}
+
+		.btn {
+			outline: none;
+			border: none;
+			cursor: pointer;
+			display: block;
+			position: relative;
+			background-color: #f7b33e;
+			font-size: 20px;
+			font-weight: 300px;
+			color: white;
+			text-transform: uppercase;
+			padding: 25px 80px;
+			margin: 0 auto;
+			border-radius: 20px;
+			box-shadow: 0px 10px #efa424;
+		}
+
+		.btn:hover {
+			top: 3px;
+			box-shadow: 0px 7px #efa424;
+		}
+
+		.btn:active {
+			top: 10px;
+			box-shadow: none;
+		}
 	</style>
 </head>
 
@@ -99,9 +126,11 @@
 		</div>
 	</div>
 
+	<button class="btn">Click Me</button>
+
 	<script>
-		const trigger = document.querySelector('.shell')
-		const obj = document.querySelector('.item')
+		const trigger = document.querySelector('.shell');
+		const obj = document.querySelector('.item');
 		trigger.addEventListener('click', () => {
 			obj.classList.contains('on') ?
 				obj.classList.remove('on') :
@@ -109,11 +138,11 @@
 		});
 
 
-		const open = document.getElementById('open')
-		const close = document.getElementById('close')
-		const container = document.querySelector('.container')
+		const open = document.getElementById('open');
+		const close = document.getElementById('close');
+		const container = document.querySelector('.container');
 
-		open.addEventListener('click', () => container.classList.add('show'))
+		open.addEventListener('click', () => container.classList.add('show'));
 		close.addEventListener('click', () => container.classList.remove('show'))
 	</script>
 </body>
